@@ -1,0 +1,31 @@
+#visit-card-container-section {
+    padding: 25px 20px;
+}
+
+#visit-comments-container-section {
+    padding: 25px 0px;
+}
+
+#visit-card-container-section h2 {
+    color: var(--font-color-main);
+    font-size: 20px;
+}
+
+#visit-comments-container-section h2 {
+    color: var(--font-color-main);
+    font-size: 20px;
+}
+
+.dct-cards-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 746px;
+}
+
+.dct-comments-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--bg-color-comments);
+}

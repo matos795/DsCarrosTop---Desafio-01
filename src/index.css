@@ -9,7 +9,7 @@
 
   --font-color-header: #FFFFFF;
   --font-color-footer: #FFFFFF;
-  --font-color-main: #FFFFFF;
+  --font-color-main: #5E5E5E;
   --font-color-comments: #3C9AF0;
 
   --border-color-card: #3C9AF0;
@@ -30,4 +30,10 @@ a, a:hover {
 
 html, body {
     background-color: var(--bg-collor);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
