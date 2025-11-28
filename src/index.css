@@ -2,14 +2,25 @@
 
 :root {
 
+  --bg-color-header: #3C9AF0;
+  --bg-color-footer: #3C9AF0;
+  --bg-color-primary: #FFFFFF;
+  --bg-color-comments: #C8C8C8;
 
+  --font-color-header: #FFFFFF;
+  --font-color-footer: #FFFFFF;
+  --font-color-main: #FFFFFF;
+  --font-color-comments: #3C9AF0;
+
+  --border-color-card: #3C9AF0;
+  --border-color-comments: #3C9AF0;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Roboto Condensed";
+    font-family: "Poppins";
 }
 
 a, a:hover {
