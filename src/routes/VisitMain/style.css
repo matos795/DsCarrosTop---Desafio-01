@@ -1,5 +1,5 @@
 #visit-card-container-section {
-    padding: 25px 20px;
+    padding: 25px 20px 0 20px;
 }
 
 #visit-comments-container-section {
@@ -18,14 +18,27 @@
 
 .dct-cards-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    max-width: 746px;
 }
 
 .dct-comments-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-color: var(--bg-color-comments);
+}
+
+@media(min-width: 576px) {
+    
+    #visit-card-container-section h2 {
+    font-size: 32px;
+}
+
+#visit-comments-container-section h2 {
+    font-size: 32px;
+}
+
 }
