@@ -1,0 +1,16 @@
+.dct-comment {
+    text-align: center;
+    border: 1px solid var(--border-color-comments);
+    background-color: var(--bg-color-comments-card);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 960px;
+    margin-bottom: 25px;
+}
+
+.dct-comment p {
+    color: var(--font-color-comments);
+    font-size: 16px;
+    padding: 25px 20px;
+    text-align: left;
+}

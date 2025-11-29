@@ -1,4 +1,5 @@
 import Card from '../../components/Card';
+import CommentCard from '../../components/CommentCard';
 import Header from '../../components/Header';
 import './style.css';
 
@@ -18,7 +19,14 @@ export default function VisitMain() {
                 </section>
 
                 <section id='visit-comments-container-section'  className='dct-comments-container'>
+                    <div className='dct-mb20'>
                         <h2>O que estão dizendo</h2>
+                    </div>
+                        <CommentCard />
+                        <CommentCard />
+                        <CommentCard />
+                        <CommentCard />
+                        <CommentCard />
                 </section>
             </main>
         </>
