@@ -1,5 +1,6 @@
 import Card from '../../components/Card';
 import CommentCard from '../../components/CommentCard';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './style.css';
 
@@ -29,6 +30,8 @@ export default function VisitMain() {
                         <CommentCard />
                 </section>
             </main>
+
+            <Footer />
         </>
     );
 }
